@@ -1,0 +1,9 @@
+C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\bin\Debug\BApp2.rxtmg
+C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\bin\Debug\BApp2.rxtst
+C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\bin\Debug\BApp2.exe.config
+C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\bin\Debug\BApp2.exe
+C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\bin\Debug\BApp2.pdb
+C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\obj\x86\Debug\BApp2.csprojResolveAssemblyReference.cache
+C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\obj\x86\Debug\BApp2.exe
+C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\obj\x86\Debug\BApp2.pdb

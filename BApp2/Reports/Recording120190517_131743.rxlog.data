@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.2m"
+		durationms="70278"
+		type="root"
+		rid="b3dbe32461d8258"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ihira"
+		rxversion="8.3.2.0"
+		host="TIROGUEW10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1280x800"
+		timestamp="17-May-19 1:17:52 PM"
+		timestampiso="2019-05-17T20:17:52"
+		endtime="17-May-19 1:19:03 PM"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.087"
+			timeRelativeToTestModuleStartTime="00:06.088"
+			timeWallClock="13:17:58"
+			time="00:06.087"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Usuario, Contrasena
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.204"
+			timeRelativeToTestModuleStartTime="00:06.205"
+			timeWallClock="13:17:58"
+			time="00:06.204"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.thebapp.android' on device 'USB-ZY223S395C'.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.018"
+			timeRelativeToTestModuleStartTime="00:21.019"
+			timeWallClock="13:18:13"
+			time="00:21.018"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 10s to exist. Associated repository item: 'ComThebappAndroid.IndexHtml.TxtUsuario'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//input[#'txtUsuario']"
+				itempath=".//input[#'txtUsuario']"
+				fullname="BApp2Repository.ComThebappAndroid.IndexHtml.TxtUsuario"
+				id="8fe679e7c77b4e99b1da18fced5a9f2c"
+				timeout="10000"
+				codefile="C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.834"
+			timeRelativeToTestModuleStartTime="00:26.835"
+			timeWallClock="13:18:19"
+			time="00:26.834"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComThebappAndroid.IndexHtml.TxtUsuario' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//input[#'txtUsuario']"
+				itempath=".//input[#'txtUsuario']"
+				fullname="BApp2Repository.ComThebappAndroid.IndexHtml.TxtUsuario"
+				id="8fe679e7c77b4e99b1da18fced5a9f2c"
+				timeout="90000"
+				codefile="C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs"
+				codeline="115"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.950"
+			timeRelativeToTestModuleStartTime="00:30.951"
+			timeWallClock="13:18:23"
+			time="00:30.950"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '$Usuario' on item 'ComThebappAndroid.IndexHtml.TxtUsuario'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//input[#'txtUsuario']"
+				itempath=".//input[#'txtUsuario']"
+				fullname="BApp2Repository.ComThebappAndroid.IndexHtml.TxtUsuario"
+				id="8fe679e7c77b4e99b1da18fced5a9f2c"
+				timeout="90000"
+				codefile="C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs"
+				codeline="119"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.021"
+			timeRelativeToTestModuleStartTime="00:32.022"
+			timeWallClock="13:18:24"
+			time="00:32.021"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComThebappAndroid.IndexHtml.RdbUs' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//input[#'rdb-us']"
+				itempath=".//input[#'rdb-us']"
+				fullname="BApp2Repository.ComThebappAndroid.IndexHtml.RdbUs"
+				id="6d7c0c873602422d9276b4a80e30bc4a"
+				timeout="90000"
+				codefile="C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs"
+				codeline="123"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.275"
+			timeRelativeToTestModuleStartTime="00:36.276"
+			timeWallClock="13:18:29"
+			time="00:36.275"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 10s to exist. Associated repository item: 'ComThebappAndroid.IndexHtml.TxtPassword'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//input[#'txtPassword']"
+				itempath=".//input[#'txtPassword']"
+				fullname="BApp2Repository.ComThebappAndroid.IndexHtml.TxtPassword"
+				id="853f77dd49c34cb39de065d328691167"
+				timeout="10000"
+				codefile="C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs"
+				codeline="127"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.289"
+			timeRelativeToTestModuleStartTime="00:37.290"
+			timeWallClock="13:18:30"
+			time="00:37.289"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '$Contrasena' on item 'ComThebappAndroid.IndexHtml.TxtPassword'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//input[#'txtPassword']"
+				itempath=".//input[#'txtPassword']"
+				fullname="BApp2Repository.ComThebappAndroid.IndexHtml.TxtPassword"
+				id="853f77dd49c34cb39de065d328691167"
+				timeout="90000"
+				codefile="C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs"
+				codeline="130"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.117"
+			timeRelativeToTestModuleStartTime="00:38.118"
+			timeWallClock="13:18:30"
+			time="00:38.117"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComThebappAndroid.IndexHtml.RdbUs' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//input[#'rdb-us']"
+				itempath=".//input[#'rdb-us']"
+				fullname="BApp2Repository.ComThebappAndroid.IndexHtml.RdbUs"
+				id="6d7c0c873602422d9276b4a80e30bc4a"
+				timeout="90000"
+				codefile="C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs"
+				codeline="134"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.653"
+			timeRelativeToTestModuleStartTime="00:41.654"
+			timeWallClock="13:18:34"
+			time="00:41.653"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 10s to exist. Associated repository item: 'ComThebappAndroid.IndexHtml.SIGNIN'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//button[#'btn-login']/span[@innertext='SIGN IN']"
+				itempath=".//button[#'btn-login']/span[@innertext='SIGN IN']"
+				fullname="BApp2Repository.ComThebappAndroid.IndexHtml.SIGNIN"
+				id="c80095861bb04a7d89e8ee867bd52912"
+				timeout="10000"
+				codefile="C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs"
+				codeline="138"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:42.658"
+			timeRelativeToTestModuleStartTime="00:42.659"
+			timeWallClock="13:18:35"
+			time="00:42.658"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComThebappAndroid.IndexHtml.SIGNIN' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//button[#'btn-login']/span[@innertext='SIGN IN']"
+				itempath=".//button[#'btn-login']/span[@innertext='SIGN IN']"
+				fullname="BApp2Repository.ComThebappAndroid.IndexHtml.SIGNIN"
+				id="c80095861bb04a7d89e8ee867bd52912"
+				timeout="90000"
+				codefile="C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs"
+				codeline="141"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:46.713"
+			timeRelativeToTestModuleStartTime="00:46.714"
+			timeWallClock="13:18:39"
+			time="00:46.713"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ComThebappAndroid.VISITS'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.thebapp.android']//dom[@page='menu.html']//section[#'sct-button']/a[@innertext='VISITS']"
+				itempath=".//dom[@page='menu.html']//section[#'sct-button']/a[@innertext='VISITS']"
+				fullname="BApp2Repository.ComThebappAndroid.VISITS"
+				id="c583266214cf4901862f72b43bf38c07"
+				timeout="60000"
+				codefile="C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs"
+				codeline="145"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:10.278"
+			timeRelativeToTestModuleStartTime="01:10.279"
+			timeWallClock="13:19:03"
+			time="01:10.278"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

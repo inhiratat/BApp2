@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="14365a5711d68b18"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="ihira"
+		rxversion="8.3.2.0"
+		host="TIROGUEW10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1280x800"
+		timestamp="17-May-19 1:54:28 PM"
+		timestampiso="2019-05-17T20:54:28"
+		endtime="17-May-19 1:55:01 PM"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			WaitForAttributeEqual failed. The attribute 'Value' did not equal the specified value '' before the timeout of 5s. The last value found was ''. Associated repository item: 'BApp2Repository.ComThebappAndroid.IndexHtml.TxtUsuario'
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.808"
+			timeRelativeToTestModuleStartTime="00:05.809"
+			timeWallClock="13:54:34"
+			time="00:05.808"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Usuario, Contrasena
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.849"
+			timeRelativeToTestModuleStartTime="00:05.850"
+			timeWallClock="13:54:34"
+			time="00:05.849"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.thebapp.android' on device 'USB-ZY223S395C'.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.571"
+			timeRelativeToTestModuleStartTime="00:21.572"
+			timeWallClock="13:54:50"
+			time="00:21.571"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 10s to exist. Associated repository item: 'ComThebappAndroid.IndexHtml.TxtUsuario'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//input[#'txtUsuario']"
+				itempath=".//input[#'txtUsuario']"
+				fullname="BApp2Repository.ComThebappAndroid.IndexHtml.TxtUsuario"
+				id="8fe679e7c77b4e99b1da18fced5a9f2c"
+				timeout="10000"
+				codefile="C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.601"
+			timeRelativeToTestModuleStartTime="00:25.602"
+			timeWallClock="13:54:54"
+			time="00:25.601"
+			level="Info"
+			category="Set value"
+			errimg=".\Recordin_816c9101_e1866432_trace.jpg"
+			errthumb=".\Recordin_816c9101_e1866432_trace_thumb.jpg">
+			<message>
+				Setting attribute Value to '$Usuario' on item 'ComThebappAndroid.IndexHtml.TxtUsuario'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//input[#'txtUsuario']"
+				itempath=".//input[#'txtUsuario']"
+				fullname="BApp2Repository.ComThebappAndroid.IndexHtml.TxtUsuario"
+				id="8fe679e7c77b4e99b1da18fced5a9f2c"
+				timeout="90000"
+				codefile="C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs"
+				codeline="115"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.452"
+			timeRelativeToTestModuleStartTime="00:26.453"
+			timeWallClock="13:54:55"
+			time="00:26.452"
+			level="Info"
+			category="Wait"
+			errimg=".\Recordin_816c9101_21f96e4b_trace.jpg"
+			errthumb=".\Recordin_816c9101_21f96e4b_trace_thumb.jpg">
+			<message>
+				Waiting 5s for the attribute 'Value' to equal the specified value $Usuario. Associated repository item: 'ComThebappAndroid.IndexHtml.TxtUsuario'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//input[#'txtUsuario']"
+				itempath=".//input[#'txtUsuario']"
+				fullname="BApp2Repository.ComThebappAndroid.IndexHtml.TxtUsuario"
+				id="8fe679e7c77b4e99b1da18fced5a9f2c"
+				timeout="90000"
+				codefile="C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs"
+				codeline="119"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.561"
+			timeRelativeToTestModuleStartTime="00:32.562"
+			timeWallClock="13:55:01"
+			time="00:32.561"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_816c9101_bd757659_trace.jpg"
+			errthumb=".\Recordin_816c9101_bd757659_trace_thumb.jpg">
+			<message>
+				WaitForAttributeEqual failed. The attribute 'Value' did not equal the specified value '' before the timeout of 5s. The last value found was ''. Associated repository item: 'BApp2Repository.ComThebappAndroid.IndexHtml.TxtUsuario'
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.WaitForAttributeInternal(Duration waitTimeout, String name, Object value, WaitForAction action)
+   at Ranorex.Core.Repository.RepoItemInfo.WaitForAttributeEqual(Duration waitTimeout, String name, Object value)
+   at BApp2.Recording1.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs:line 120
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\ihira\Documents\Ranorex\RanorexStudio Projects\BApp2\BApp2\Recording1.cs"
+				codeline="120"
+				loglvl="Error"
+				id="8fe679e7c77b4e99b1da18fced5a9f2c"
+				path="/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//input[#'txtUsuario']"
+				fullname="BApp2Repository.ComThebappAndroid.IndexHtml.TxtUsuario"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

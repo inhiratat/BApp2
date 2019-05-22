@@ -1,0 +1,114 @@
+﻿<repository
+id="85f681a8-209f-43ec-a5ab-8c5c5c2a012e"
+name="BApp2Repository"
+rxversion="8.3">
+	<codegen
+	classname="BApp2Repository"
+	namespace="BApp2">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="7bbdf5e8-72ba-4159-b959-166eee615871"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="unknown,mobileapp,androidapp"
+		capname="mobileapp"
+		id="8c3bcae4-2303-4314-bd1d-4f5865045768"
+		isrooted="True"
+		name="ComThebappAndroid"
+		refimgid="665d1376-9a86-4b97-a092-ab6fac3adef5"
+		refpath="/mobileapp[@title='com.thebapp.android']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="container,container,webdocument,androidelement,mobileuielement"
+			capname="webdocument"
+			id="536d5759-a659-46fc-9811-82a8ee1b53b0"
+			isrooted="True"
+			name="IndexHtml"
+			refpath="/mobileapp[@title='com.thebapp.android']/form[@title='MainActivity']/container[@rid='content']/dom[@page='index.html']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,inputtag,webelement,mobileuielement"
+				capname="inputtag"
+				id="6d7c0c87-3602-422d-9276-b4a80e30bc4a"
+				name="RdbUs"
+				refimgid="293da9f5-b437-4e7d-84a4-e9b12de048b2"
+				refpath="/mobileapp[@title='com.thebapp.android']/form[@title='MainActivity']/container[@rid='content']/dom[@page='index.html']//input[#'rdb-us']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//input[#'rdb-us']
+				</item>
+				<item
+				addcaps="unknown,inputtag,webelement,mobileuielement"
+				capname="inputtag"
+				id="853f77dd-49c3-4cb3-9de0-65d328691167"
+				name="TxtPassword"
+				refimgid="89c702e5-ebb9-4f14-8004-267c9015cb19"
+				refpath="/mobileapp[@title='com.thebapp.android']/form[@title='MainActivity']/container[@rid='content']/dom[@page='index.html']//input[#'txtPassword']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//input[#'txtPassword']
+				</item>
+				<item
+				addcaps="unknown,inputtag,webelement,mobileuielement"
+				capname="inputtag"
+				id="8fe679e7-c77b-4e99-b1da-18fced5a9f2c"
+				name="TxtUsuario"
+				refimgid="c179fa9a-5981-4f93-bc0b-73e7375831d5"
+				refpath="/mobileapp[@title='com.thebapp.android']/form[@title='MainActivity']/container[@rid='content']/dom[@page='index.html']//input[#'txtUsuario']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//input[#'txtUsuario']
+				</item>
+				<item
+				addcaps="unknown,spantag,webelement,mobileuielement"
+				capname="spantag"
+				id="c8009586-1bb0-4a7d-89e8-ee867bd52912"
+				name="SIGNIN"
+				refimgid="69a95428-eb0a-46c4-b51f-fd4615ad282d"
+				refpath="/mobileapp[@title='com.thebapp.android']/form[@title='MainActivity']/container[@rid='content']/dom[@page='index.html']//button[#'btn-login']/span[@innertext='SIGN IN']"
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']//button[#'btn-login']/span[@innertext='SIGN IN']
+				</item>
+				<basepath>
+					/mobileapp[@title='com.thebapp.android']//dom[@page='index.html']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,atag,webelement,mobileuielement"
+			capname="atag"
+			id="c5832662-14cf-4901-862f-72b43bf38c07"
+			name="VISITS"
+			refimgid="423952dd-9eec-4afa-9041-0879bab8df1a"
+			refpath="/mobileapp[@title='com.thebapp.android']/form[@title='MainActivity']/container[@rid='content']/dom[@page='menu.html']//section[#'sct-button']/a[@innertext='VISITS']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='com.thebapp.android']//dom[@page='menu.html']//section[#'sct-button']/a[@innertext='VISITS']
+			</item>
+			<item
+			addcaps="unknown,atag,webelement,mobileuielement"
+			capname="atag"
+			id="5644e094-88bd-4d53-bb3f-f50a302fd5d6"
+			name="SignOut"
+			refimgid="80e5077d-b393-47d0-85cb-dd095033aa76"
+			refpath="/mobileapp[@title='com.thebapp.android']/form[@title='MainActivity']/container[@rid='content']/dom[@page='menu.html']//a[#'sign-out']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='com.thebapp.android']//dom[@page='menu.html']//a[#'sign-out']
+			</item>
+			<basepath>
+				/mobileapp[@title='com.thebapp.android']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAABNSURBVDhPY6A6CA0NWQ/E//Hg9VClmAAo
+KYCmGCuGKscEQEmwAVAuVkBInqCCUQNGjgGEMFQpdoBLIS5xDABU0ICsGAtugCqlBmBgAAAcoXfL
+E78sAQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
